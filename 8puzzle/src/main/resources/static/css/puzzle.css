@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#board{
+    position: relative;
+    width: 620px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 1px;
+}
+
+.chess{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	border-radius: 5px;
+	display: inline-block;
+	background-color: #ffe171;
+	box-shadow: 0 0 10px #ffe171;
+}
+
+.chess .cell{
+	position: absolute;
+	width: 148px;
+	height: 148px;
+	box-shadow: 1px 1px 2px #777;
+	background-color: #20a6fa;
+	color: white;
+	text-align: center;
+	font-size: 150px;
+	line-height: 150px;
+}
+
+#operation{
+	width: 150px;
+	height: 500px;
+	display: inline-block;
+	float: right;
+}
+
+#loginBtn{
+	display: inline-block;
+	font-size: 18px;
+	width: 100px;
+	height: 28px;
+	background-color: #20a6fa;
+	color:#ffe171;
+	text-shadow: 1px 1px 2px #ffe171;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #4c98f5;
+	text-align: center;
+	cursor: pointer;
+}
+
+#shuffle{
+	display: inline-block;
+	font-size: 28px;
+	width: 100px;
+	height: 28px;
+	background-color: #20a6fa;
+	color:#ffe171;
+	text-shadow: 1px 1px 2px #ffe171;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #4c98f5;
+	text-align: center;
+	cursor: pointer;
+}
+
+#solve{
+	display: inline-block;
+	font-size: 28px;
+	width: 100px;
+	height: 28px;
+	background-color: #20a6fa;
+	color:#ffe171;
+	text-shadow: 1px 1px 2px #ffe171;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #4c98f5;
+	text-align: center;
+	cursor: pointer;
+}
